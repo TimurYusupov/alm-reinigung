@@ -1,0 +1,118 @@
+.header {
+   width: 100%;
+   position: fixed;
+   z-index: 3;
+   padding: 5px 10px 0px 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: transparent;
+   transition: background-color 0.4s;
+}
+
+.header.white {
+   background-color: #fff;
+}
+
+.header.shadow {
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 23px -5px, rgba(0, 0, 0, 0.3) 0px 8px 12px -8px;
+}
+
+.social-icons {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.social-icon svg {
+   width: 25px;
+   height: 25px;
+   fill: #fff;
+}
+
+.social-icon svg path {
+   fill: #fff;
+}
+
+.burger-menu {
+   position: relative;
+}
+
+.bar-1,
+.bar-2,
+.bar-3 {
+   margin-bottom: 6px;
+   width: 31px;
+   height: 4px;
+   background-color: #fff;
+}
+
+.bar-3 {
+   margin-bottom: 0;
+}
+
+.nav {
+   display: none;
+}
+
+
+@media (min-width: 600px) {
+   .logoSvg {
+      width: 60pt;
+      height: 60pt;
+   }
+}
+
+@media (min-width: 900px) {
+   .header {
+      padding: 5px 100px 0px 100px;
+   }
+
+   .logoSvg {
+      width: 65pt;
+      height: 65pt;
+   }
+
+   .social-icons {
+      display: none;
+   }
+
+   .burger-menu {
+      display: none;
+   }
+
+   .nav {
+      display: block;
+   }
+
+   .nav-menu {
+      display: flex;
+      gap: 30px;
+   }
+
+   .menu-link {
+      position: relative;
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+   }
+
+   .menu-link_underline {
+      display: block;
+      position: absolute;
+      bottom: -5px;
+      width: 0;
+      height: 3px;
+      background-color: #fff;
+      border-radius: 2px;
+      transition: width 0.5s ease;
+   }
+
+   .menu-link:hover .menu-link_underline {
+      width: 100%;
+   }
+
+   .menu-link a {
+      color: inherit;
+   }
+}

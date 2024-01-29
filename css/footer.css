@@ -1,0 +1,196 @@
+.footer {
+   padding: 50px 10px 30px 10px;
+   background-color: gray;
+}
+
+.footer-contact {
+   text-align: center;
+}
+
+.footer-contact h3 {
+   color: #011f3a;
+}
+
+.footer-contact__underline {
+   margin: 15px auto;
+   width: 80px;
+   height: 2px;
+   background-color: blue;
+}
+
+.footer-contact-data {
+   margin-bottom: 25px;
+   font-size: 15px;
+}
+
+.footer-contact-data a {
+   display: block;
+   color: black;
+   margin-bottom: 5px;
+}
+
+.footer-contact-data a p {
+   font-weight: 600;
+}
+
+.footer-contact-data__email {
+   color: blue;
+}
+
+.footer-contact-data__number {
+   color: blue;
+}
+
+.footer-socials {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+}
+
+.footer-socials img {
+   width: 33px;
+   height: 33px;
+   transition: all 0.2s ease-in;
+}
+
+.footer-socials img:hover {
+   transform: translateY(-7px);
+}
+
+.footer-sitemap {
+   margin-top: 40px;
+   text-align: center;
+}
+
+.footer-sitemap h3 {
+   color: #011f3a;
+}
+
+.footer-sitemap__underline {
+   margin: 15px auto;
+   width: 80px;
+   height: 2px;
+   background-color: blue;
+}
+
+.footer-sitemap ul {
+   margin-top: 10px;
+   font-size: 15px;
+}
+
+.footer-sitemap ul li {
+   margin-bottom: 10px;
+   color: black;
+}
+
+.footer-sitemap ul li a {
+   color: inherit;
+   font-weight: 600;
+}
+
+.footer-sitemap ul li a:hover {
+   color: blue;
+}
+
+.footer-logo {
+   margin-top: 40px;
+   text-align: center;
+}
+
+.footer-logo .gmbh {
+   margin-top: 10px;
+   display: block;
+   font-size: 15px;
+}
+
+.footer-time {
+   margin-top: 40px;
+   text-align: center;
+}
+
+.footer-time h3 {
+   color: #011f3a;
+}
+
+.footer-time__underline {
+   margin: 15px auto;
+   width: 80px;
+   height: 2px;
+   background-color: blue;
+}
+
+.footer-time .opening-hours {
+   font-size: 15px;
+}
+
+.footer-time .opening-hours p:not(:last-child) {
+   margin-bottom: 5px;
+}
+
+.footer-time .opening-hours p span {
+   font-weight: 600;
+}
+
+@media (min-width: 850px) {
+   .footer {
+      padding: 100px 40px;
+   }
+
+   .footer-wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .footer-contact {
+      text-align: left;
+   }
+
+   .footer-contact h3 {
+      font-size: 24px;
+   }
+
+   .footer-contact__underline {
+      margin: 15px 0;
+   }
+
+   .footer-socials {
+      display: flex;
+      justify-content: flex-start;
+   }
+
+   .footer-sitemap {
+      margin-top: unset;
+      text-align: left;
+   }
+
+   .footer-sitemap h3 {
+      font-size: 24px;
+   }
+
+   .footer-sitemap__underline {
+      margin: 15px 0;
+   }
+
+   .footer-logo {
+      margin-top: unset;
+      text-align: left;
+   }
+
+   .footer-time__underline {
+      margin: 15px 0;
+   }
+
+   .footer-time {
+      margin-top: unset;
+      text-align: left;
+   }
+
+   .footer-time h3 {
+      font-size: 24px;
+   }
+
+   .footer-time .opening-hours {
+      text-align: left;
+   }
+}
