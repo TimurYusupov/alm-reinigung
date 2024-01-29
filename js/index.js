@@ -184,6 +184,13 @@ document.addEventListener('DOMContentLoaded', () => {
          img: 'img/categories/wohnung.jpg',
          description:
             'Wir bieten professionelle Unterhaltsreinigung für Privatwohnungen und Häuser an. Unsere qualifizierten Reinigungsteams sorgen für Sauberkeit und Hygiene in Ihren Räumlichkeiten. Ob regelmäßige Reinigungstermine oder einmalige Aufträge - wir passen unser Angebot individuell an Ihre Bedürfnisse an. Verlassen Sie sich auf unsere Erfahrung und Kompetenz für ein sauberes Zuhause oder Büro. Kontaktieren Sie uns jetzt, um Ihr Zuhause in einen makellosen Zustand zu versetzen und von unserem erstklassigen Reinigungsservice zu profitieren.'
+      },
+      {
+         category: 'tatort-cleaning',
+         title: 'Tatortreinigung',
+         img: 'img/categories/tatort.jpg',
+         description:
+            'Unsere Firma ist auf die gründliche Reinigung von Tatorten spezialisiert, darunter Mord- oder Unfallorte. In belastenden Momenten übernehmen wir diskret die hygienische Wiederherstellung. Unser geschultes Team entsorgt Rückstände gemäß Vorschriften und bewährten Methoden. Wir reinigen sorgfältig Oberflächen wie Teppiche, Polstermöbel, Wände und Böden. Unsere Dienstleistung umfasst die Beseitigung von Blutspuren, Gewebe und anderen kontaminierten Substanzen, sowie Geruchsbeseitigung, um den Tatort bewohnbar zu machen. Vertrauen Sie unserer jahrelangen Erfahrung und Professionalität. Diskretion, Vertraulichkeit und die Wiederherstellung eines bewohnbaren Umfelds stehen im Fokus unserer Arbeit. Kontaktieren Sie uns für weitere Informationen.'
       }
    ]
 
