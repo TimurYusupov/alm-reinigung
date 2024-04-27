@@ -55,9 +55,14 @@
    display: none;
 }
 
+.logo {
+   width: 55t;
+   height: 55pt;
+}
+
 
 @media (min-width: 600px) {
-   .logoSvg {
+   .logo {
       width: 60pt;
       height: 60pt;
    }
@@ -68,7 +73,7 @@
       padding: 5px 100px 0px 100px;
    }
 
-   .logoSvg {
+   .logo {
       width: 65pt;
       height: 65pt;
    }

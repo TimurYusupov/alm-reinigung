@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
    })
 
    // Adding click event listener to logo for scrolling to top
-   const logo = document.querySelector('.logo svg')
+   const logo = document.querySelector('.logo')
    logo.addEventListener('click', (event) => {
       event.preventDefault()
       scrollToTarget(document.body)
@@ -82,7 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
    const navBar = document.querySelector('.header')
    const menuLink = document.querySelectorAll('.menu-link')
    const menuLinkUnderline = document.querySelectorAll('.menu-link_underline')
-   const headerLogoPaths = document.querySelectorAll('.logo svg path')
    const headerIcons = document.querySelectorAll('.social-icon svg path')
    const burgerMenu = document.querySelectorAll('.burger-menu div')
 
@@ -97,10 +96,9 @@ document.addEventListener('DOMContentLoaded', () => {
             el.style.backgroundColor = '#fff'
          })
          navBar.classList.remove('shadow')
-         // Changing color of Logo
-         headerLogoPaths.forEach((path) => {
-            path.style.fill = '#fff'
-         })
+         // Changing Logo variant
+         logo.src = 'img/header/kreis-logo-weiss-transparent.png'
+         console.log(logo.src);
          // Changing color of icons
          headerIcons.forEach((el) => {
             el.style.fill = '#fff'
@@ -120,9 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
          })
          navBar.classList.add('shadow')
          // Changing color of Logo
-         headerLogoPaths.forEach((path) => {
-            path.style.fill = 'black'
-         })
+         logo.src = 'img/header/kreis-logo-schwarz-transparent.png'
+         console.log(logo.src);
          // Changing color of icons
          headerIcons.forEach((el) => {
             el.style.fill = 'black'
