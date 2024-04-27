@@ -653,6 +653,12 @@ a {
 /* ===== Partners ===== */
 .partners {
    margin-top: 70px;
+   opacity: 0;
+   transition: opacity 0.6s ease;
+}
+
+.partners.lazyloaded {
+   opacity: 1;
 }
 
 .partners-title {
@@ -661,12 +667,7 @@ a {
    text-align: center;
    margin-bottom: 20px;
    text-transform: uppercase;
-   opacity: 0;
    transition: opacity 0.6s ease;
-}
-
-.partners-title.lazyloaded {
-   opacity: 1;
 }
 
 .partners-logos {
