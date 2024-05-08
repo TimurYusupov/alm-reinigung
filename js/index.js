@@ -98,7 +98,6 @@ document.addEventListener('DOMContentLoaded', () => {
          navBar.classList.remove('shadow')
          // Changing Logo variant
          logo.src = 'img/header/kreis-logo-weiss-transparent.png'
-         console.log(logo.src);
          // Changing color of icons
          headerIcons.forEach((el) => {
             el.style.fill = '#fff'
@@ -119,7 +118,6 @@ document.addEventListener('DOMContentLoaded', () => {
          navBar.classList.add('shadow')
          // Changing color of Logo
          logo.src = 'img/header/kreis-logo-schwarz-transparent.png'
-         console.log(logo.src);
          // Changing color of icons
          headerIcons.forEach((el) => {
             el.style.fill = 'black'
