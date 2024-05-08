@@ -98,6 +98,11 @@
    text-align: center;
 }
 
+.footer-logo img {
+   width: 143px;
+   height: 143px;
+}
+
 .footer-logo .gmbh {
    margin-top: 10px;
    display: block;
